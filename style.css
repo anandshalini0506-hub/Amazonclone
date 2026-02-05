@@ -11,18 +11,31 @@ body{
     height:60px;
 }
 
-div.container{
+.container{
     margin:auto;
     width:98%;
     height:100%;
     overflow: hidden;
 }
-div.logo{
+.logo-container{
+    height:50px;
+    width:150px;
+    overflow:hidden;
+}
+.logo{
     margin-right:90%;
     margin-top:1%;
     height:98%;
-    width:8%;
+    width:15%;
     background:url("img/amazon.in-logo.png");
     object-fit: cover;
     background-repeat: no-repeat ;
+}
+
+.border-white:hover{
+    border:1.5px solid white;
+}
+
+.address-container{
+    display:flex;
 }
